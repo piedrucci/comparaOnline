@@ -10,8 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "nodemon server.js",
+    "after-30-days": "node report.js"
   },
   "repository": {
     "type": "git",

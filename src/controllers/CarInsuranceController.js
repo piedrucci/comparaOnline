@@ -68,7 +68,7 @@ class CarInsuranceController {
         return this.products;
     }
 
-    showOutputAt(days = 1) {
+    showOutputAt(days = 30) {
         console.log('OMGHAI!');
         this.printInitalValues();
 
