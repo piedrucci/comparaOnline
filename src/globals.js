@@ -7,6 +7,9 @@ const productTypes = {
     superSale: 'Super Sale'
 };
 
+const MEGA_COVERAGE_PRICE = 80;
+
 module.exports = {
-    productTypes: productTypes
+    productTypes: productTypes,
+    MEGA_COVERAGE_PRICE: MEGA_COVERAGE_PRICE
 };

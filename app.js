@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-const mainRoute = require('./src/routes');
+const routes = require('./src/routes/index');
 
-app.use('/', mainRoute);
+app.use('/', routes);
 
 app.use((req, res, next) => {
     const error = new Error('Not Found');
